@@ -178,6 +178,13 @@ setGeneric(
 )
 
 setGeneric(
+  name = "getChildIds",
+  def = function(entity){
+    standardGeneric("getChildIds")
+  }
+)
+
+setGeneric(
   name = "getEntity",
   def = function(entity){
     standardGeneric("getEntity")

@@ -71,6 +71,7 @@ exportMethods(
   downloadEntity, 
   loadEntity, 
   getParentEntity,
+  getChildIds,
   files,
   attach,
   detach,
